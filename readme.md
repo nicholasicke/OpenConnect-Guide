@@ -4,12 +4,15 @@ Follow these guidelines when working with repositories (repos) in the PureStorag
 ## Creating a New Repo
 The following steps provide the specific details when creating a new repository.
 
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/new-repo-setup.png)
+
 ### Add New Repo 
 Navigate to https://github.com/purestorage-openconnect to get started.
 
 ### New Repo Setup
 Required properties for the repository.
 
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
 
 * Repo Name
 Use as concise a name as possible. The context of the org is Pure Storage so there is no need to include that in the repo name. Eg. \PureStorage-OpenConnect\sap-tools. 
@@ -38,7 +41,7 @@ Now commit or upload the project to the new repo. Use git locally to continue de
 
 Example readme.md, https://github.com/PureStorage-OpenConnect/powershell-toolkit.
 
-![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
+
 
 # Making Repo Public
 Before making the repo public create a release. See https://help.github.com/articles/creating-releases/ for steps. 
@@ -47,20 +50,22 @@ After creating the release flip the switch to make repo public. Once public the 
 
 Review the readme.md in the https://github.com/PureStorage-OpenConnect/OpenConnect-Templates repo. 
 
-Example
+**Example**
 Make the repo card header creative and aligned to the project. FlashStache is a great example.
-(<graphic>)
+
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/example-header.png)
 
 
 # Publish to Pure/Code()
+Following these final steps will ensure the project is added to the https://code.purestorage.com site. 
 
 ## OpenConnect-Templates
-
 These templates can be used to setup your repo for public viewing. They include:
 * settings.json - Used with code.purestorage.com.
 * template-header.png - Use with code.purestorage.com. Header graphic should adhere to the dimensions.
 
-### settings json
+### settings.json
+This .json file is used to display the card views on the Pure/Code() site. See the <-- for individual items.
 ```
 {
     "id": "REPO NAME", <-- Repositry name
@@ -74,9 +79,13 @@ These templates can be used to setup your repo for public viewing. They include:
 ### template-header.png
 This graphic file has the proper dimensions for the header graphics on the individual cards on http://core.purestorage.com. This file needs to be committed to https://github.com/PureStorage-OpenConnect/purestorage-openconnect.github.io/tree/master/images. 
 
+**Example**
+
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/example-header.png)
 
 # Using Git
 If not already installed get started using git locally for development. 
+
 *	https://git-scm.com/downloads -- Downloads for OS platforms.
 *	https://git-scm.com/doc - git documentation.
 
