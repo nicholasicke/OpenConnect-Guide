@@ -1,49 +1,55 @@
 # OpenConnect Repo Guidelines
-
+Follow these guidelines when working with repositories (repos) in the PureStorage-OpenConnect organization.
 
 ## Creating a New Repo
+The following steps provide the specific details when creating a new repository.
 
-Step 1
-<graphic>
+### Add New Repo 
+Navigate to https://github.com/purestorage-openconnect to get started.
 
-Step 2
-<Graphic>
+### New Repo Setup
+Required properties for the repository.
 
 
-### Repo Name
+* Repo Name
 Use as concise a name as possible. The context of the org is Pure Storage so there is no need to include that in the repo name. Eg. \PureStorage-OpenConnect\sap-tools. 
 
-### Description
+* Description
 This is the summary description. Should be short. Use the readme.md file to explain the repo in more detail. 
 
-### Public or Private
+* Public or Private
 If the project is ready for the community then make public. When making a repo public please follow the Making Repo Public section. 
 
 If you are just beginning a project make Private until ready for first release. 
 
-### Initialize README, always yes.
+* Initialize README, always yes.
 
-### .gitignore
+* .gitignore
 This is optional but recommended. If you are not familiar with gitignore see https://help.github.com/articles/ignoring-files. For gitignore templates check, https://github.com/github/gitingore.
-<graphic>
 
-### License
+* License
 Pure Storage legal has recommended the use of the Apache License 2.0 for the PureStorage-OpenConnect organization. Use this license for any new project. 
 
 
-# New Repo Setup
 
+
+# Add Readme.md
 Now commit or upload the project to the new repo. Use git locally to continue development. When creating a readme.md file use markdown. See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+
+Example readme.md, https://github.com/PureStorage-OpenConnect/powershell-toolkit.
+
+/Users/barkz/Documents/GitHub/OpenConnect-Guide/images/new-repo-setup.png
 
 # Making Repo Public
 Before making the repo public create a release. See https://help.github.com/articles/creating-releases/ for steps. 
 
 After creating the release flip the switch to make repo public. Once public the project should be placed on the Pure/Code() site for community access. There are templates located at https://github.com/PureStorage-OpenConnect/OpenConnect-Templates to ensure the repo displays.
 
-Review the readme.md in the https://github.com/PureStorage-OpenConnect/OpenConnect-Templates repo. 
+Review the readme.md in the (https://github.com/PureStorage-OpenConnect/OpenConnect-Templates) repo. 
 
 Example
 Make the repo card header creative and aligned to the project. FlashStache is a great example.
+<graphic>
 
 
 # Publish to Pure/Code()
