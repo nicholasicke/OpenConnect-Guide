@@ -4,7 +4,7 @@ Follow these guidelines when working with repositories (repos) in the PureStorag
 ## Creating a New Repo
 The following steps provide the specific details when creating a new repository.
 
-![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/new-repo-setup.png)
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
 
 ### Add New Repo 
 Navigate to https://github.com/purestorage-openconnect to get started.
@@ -12,7 +12,7 @@ Navigate to https://github.com/purestorage-openconnect to get started.
 ### New Repo Setup
 Required properties for the repository.
 
-![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/new-repo-setup.png)
 
 * Repo Name
 Use as concise a name as possible. The context of the org is Pure Storage so there is no need to include that in the repo name. Eg. \PureStorage-OpenConnect\sap-tools. 
@@ -33,15 +33,10 @@ This is optional but recommended. If you are not familiar with gitignore see htt
 * License
 Pure Storage legal has recommended the use of the Apache License 2.0 for the PureStorage-OpenConnect organization. Use this license for any new project. 
 
-
-
-
 # Add Readme.md
 Now commit or upload the project to the new repo. Use git locally to continue development. When creating a readme.md file use markdown. See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
 Example readme.md, https://github.com/PureStorage-OpenConnect/powershell-toolkit.
-
-
 
 # Making Repo Public
 Before making the repo public create a release. See https://help.github.com/articles/creating-releases/ for steps. 
@@ -54,7 +49,6 @@ Review the readme.md in the https://github.com/PureStorage-OpenConnect/OpenConne
 Make the repo card header creative and aligned to the project. FlashStache is a great example.
 
 ![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/example-header.png)
-
 
 # Publish to Pure/Code()
 Following these final steps will ensure the project is added to the https://code.purestorage.com site. 
