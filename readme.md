@@ -38,7 +38,7 @@ Now commit or upload the project to the new repo. Use git locally to continue de
 
 Example readme.md, https://github.com/PureStorage-OpenConnect/powershell-toolkit.
 
-(https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
+[](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/add-new-repo.png)
 
 # Making Repo Public
 Before making the repo public create a release. See https://help.github.com/articles/creating-releases/ for steps. 
