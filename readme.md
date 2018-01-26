@@ -75,7 +75,7 @@ This graphic file has the proper dimensions for the header graphics on the indiv
 
 **Example**
 
-![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/example-header.png)
+![](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/images/template-header.png)
 
 # Using Git
 If not already installed get started using git locally for development. 
