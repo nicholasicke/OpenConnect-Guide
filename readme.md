@@ -38,18 +38,18 @@ Now commit or upload the project to the new repo. Use git locally to continue de
 
 Example readme.md, https://github.com/PureStorage-OpenConnect/powershell-toolkit.
 
-/Users/barkz/Documents/GitHub/OpenConnect-Guide/images/new-repo-setup.png
+(/Users/barkz/Documents/GitHub/OpenConnect-Guide/images/new-repo-setup.png
 
 # Making Repo Public
 Before making the repo public create a release. See https://help.github.com/articles/creating-releases/ for steps. 
 
 After creating the release flip the switch to make repo public. Once public the project should be placed on the Pure/Code() site for community access. There are templates located at https://github.com/PureStorage-OpenConnect/OpenConnect-Templates to ensure the repo displays.
 
-Review the readme.md in the (https://github.com/PureStorage-OpenConnect/OpenConnect-Templates) repo. 
+Review the readme.md in the https://github.com/PureStorage-OpenConnect/OpenConnect-Templates repo. 
 
 Example
 Make the repo card header creative and aligned to the project. FlashStache is a great example.
-<graphic>
+(<graphic>)
 
 
 # Publish to Pure/Code()
