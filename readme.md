@@ -83,8 +83,8 @@ If not already installed get started using git locally for development.
 *	https://git-scm.com/downloads -- Downloads for OS platforms.
 *	https://git-scm.com/doc - git documentation.
 
-
-
+## Contributing Code to a Project
+Follow the basic steps in the [Contributing guidelines](https://github.com/PureStorage-OpenConnect/OpenConnect-Guide/blob/master/contributing.md) to get started.
 
 
 
